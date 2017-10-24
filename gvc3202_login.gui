@@ -26,7 +26,7 @@
   <page name="Startup" folder="" j="0" tags="" transition="" subtype="" time="0" ease="" start="1">
     <portrait />
     <landscape>
-      <web x="136" y="162" w="784" h="506" j="1" title="0" back="0" forward="0" refresh="0" stop="0" url="http://61.210.230.218:8001/" tags="" />
+      <web x="136" y="162" w="784" h="506" j="1" title="0" back="0" forward="0" refresh="0" stop="0" url="http://220.145.125.107:8001" tags="" />
       <btn j="1" x="137" y="94" w="120" h="50" t="btn" flip="None" sim="1" l="0" s="1" tags="" js="doLogin();">
         <inactive s="0">AUTO LOGIN</inactive>
         <active s="0">AUTO LOGIN</active>
