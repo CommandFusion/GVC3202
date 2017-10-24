@@ -82,3 +82,16 @@ function checkWakeup() {
 		CF.log(body);
 	});
 }
+
+function doAction(action) {
+	CF.request(baseURL + "manager?action=" + action + "&time=" + Date.now(), function(status, headers, body) {
+		if (status == "200") {
+			var msgs = res_parse_rawtext(body);
+			CF.logObject(msgs);
+			return;
+		}
+		CF.log(status);
+		CF.logObject(headers);
+		CF.log(body);
+	});
+}

@@ -31,6 +31,46 @@
         <inactive s="0">AUTO LOGIN</inactive>
         <active s="0">AUTO LOGIN</active>
       </btn>
+      <btn j="0" x="666" y="9" w="120" h="50" t="btn" flip="None" sim="1" l="0" s="1" tags="">
+        <actions>
+          <action>
+            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=up&amp;param=0&quot;)" />
+            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
+          </action>
+        </actions>
+        <inactive s="0">UP</inactive>
+        <active s="0">UP</active>
+      </btn>
+      <btn j="0" x="666" y="79" w="120" h="50" t="btn" flip="None" sim="1" l="0" s="1" tags="">
+        <actions>
+          <action>
+            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=down&amp;param=0&quot;)" />
+            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
+          </action>
+        </actions>
+        <inactive s="0">DOWN</inactive>
+        <active s="0">DOWN</active>
+      </btn>
+      <btn j="0" x="536" y="49" w="120" h="50" t="btn" flip="None" sim="1" l="0" s="1" tags="">
+        <actions>
+          <action>
+            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=left&amp;param=0&quot;)" />
+            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
+          </action>
+        </actions>
+        <inactive s="0">LEFT</inactive>
+        <active s="0">LEFT</active>
+      </btn>
+      <btn j="0" x="796" y="49" w="120" h="50" t="btn" flip="None" sim="1" l="0" s="1" tags="">
+        <actions>
+          <action>
+            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=right&amp;param=0&quot;)" />
+            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
+          </action>
+        </actions>
+        <inactive s="0">RIGHT</inactive>
+        <active s="0">RIGHT</active>
+      </btn>
     </landscape>
   </page>
 </gui>
