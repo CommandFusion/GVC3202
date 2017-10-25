@@ -35,7 +35,7 @@
         <actions>
           <action>
             <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=up&amp;param=0&quot;)" />
-            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
+            <release delay="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
           </action>
         </actions>
         <inactive s="0">UP</inactive>
@@ -45,7 +45,7 @@
         <actions>
           <action>
             <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=down&amp;param=0&quot;)" />
-            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
+            <release delay="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
           </action>
         </actions>
         <inactive s="0">DOWN</inactive>
@@ -55,7 +55,7 @@
         <actions>
           <action>
             <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=left&amp;param=0&quot;)" />
-            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
+            <release delay="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
           </action>
         </actions>
         <inactive s="0">LEFT</inactive>
@@ -65,7 +65,7 @@
         <actions>
           <action>
             <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=right&amp;param=0&quot;)" />
-            <press delay="0" hold="0" repeat="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
+            <release delay="0" js="doAction(&quot;ptzctrl&amp;region=control&amp;type=stop&amp;param=0&quot;)" />
           </action>
         </actions>
         <inactive s="0">RIGHT</inactive>
